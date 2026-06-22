@@ -1,0 +1,23 @@
+HashMap is a class in the java collections framework that stores data in key value pairs where key is a unique identifier and value is the data associated with the key
+
+the hashmap class is present in the util package
+
+Syntax
+HashMap<KeyType, ValueType> refName=new HashMap<>();
+
+to add values in the hashmap the syntax is
+refName.put(key,value);
+
+to get value of the single key the syntax is
+refName.get(key)
+
+to check if the key is present in the hashmap we use
+refName.containsKey(key)
+
+to remove key from the existing hashmap
+refName.remove(key)
+
+size of the HashMap
+refName.size();
+
+
